@@ -7,71 +7,71 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Prefix(Cycle:=<http://www.semanticweb.org/manasraaj/ontologies/2023/11/untitled-ontology-4/Cycle#>)
 
 
-Ontology(<https://github.com/Manas-5/Cycle/blob/main/RAAJ-cycling.owl>
+Ontology(<https://github.com/Manas-5/Cycle>
 
 Declaration(Class(<http://xmlns.com/foaf/0.1/Organization>))
-Declaration(Class(:Climber))
-Declaration(Class(:Director))
-Declaration(Class(:Doctor))
-Declaration(Class(:FlatStage))
-Declaration(Class(:GoodTeam))
-Declaration(Class(:IndividualTimeTrial))
-Declaration(Class(:MountainStage))
-Declaration(Class(:OneDayRace))
-Declaration(Class(:Person))
-Declaration(Class(:Prologue))
-Declaration(Class(:Race))
-Declaration(Class(:RaceCyclist))
-Declaration(Class(:RacePerson))
-Declaration(Class(:Rider))
-Declaration(Class(:SeveralStagesRace))
-Declaration(Class(:Spectator))
-Declaration(Class(:Sprinter))
-Declaration(Class(:Stage))
-Declaration(Class(:Team))
-Declaration(Class(:TeamPerson))
-Declaration(Class(:TeamTimeTrial))
-Declaration(Class(:TimeTrial))
-Declaration(ObjectProperty(:belongsTo))
-Declaration(ObjectProperty(:composedOf))
-Declaration(ObjectProperty(:participatesIn))
-Declaration(DataProperty(:hasAge))
-Declaration(DataProperty(:hasName))
-Declaration(DataProperty(:hasNationality))
-Declaration(DataProperty(:hasNumber))
-Declaration(NamedIndividual(:Astana))
-Declaration(NamedIndividual(:Christopher_Froom))
-Declaration(NamedIndividual(:Eddy_Merckx))
-Declaration(NamedIndividual(:Giro))
-Declaration(NamedIndividual(:Miguel_Indurain))
-Declaration(NamedIndividual(:Sky))
-Declaration(NamedIndividual(:Tour_de_France))
-Declaration(NamedIndividual(:US_Postal))
-Declaration(NamedIndividual(:Vuelta))
+Declaration(Class(<https://github.com/Manas-5/Cycle#Climber>))
+Declaration(Class(<https://github.com/Manas-5/Cycle#Director>))
+Declaration(Class(<https://github.com/Manas-5/Cycle#Doctor>))
+Declaration(Class(<https://github.com/Manas-5/Cycle#FlatStage>))
+Declaration(Class(<https://github.com/Manas-5/Cycle#GoodTeam>))
+Declaration(Class(<https://github.com/Manas-5/Cycle#IndividualTimeTrial>))
+Declaration(Class(<https://github.com/Manas-5/Cycle#MountainStage>))
+Declaration(Class(<https://github.com/Manas-5/Cycle#OneDayRace>))
+Declaration(Class(<https://github.com/Manas-5/Cycle#Person>))
+Declaration(Class(<https://github.com/Manas-5/Cycle#Prologue>))
+Declaration(Class(<https://github.com/Manas-5/Cycle#Race>))
+Declaration(Class(<https://github.com/Manas-5/Cycle#RaceCyclist>))
+Declaration(Class(<https://github.com/Manas-5/Cycle#RacePerson>))
+Declaration(Class(<https://github.com/Manas-5/Cycle#Rider>))
+Declaration(Class(<https://github.com/Manas-5/Cycle#SeveralStagesRace>))
+Declaration(Class(<https://github.com/Manas-5/Cycle#Spectator>))
+Declaration(Class(<https://github.com/Manas-5/Cycle#Sprinter>))
+Declaration(Class(<https://github.com/Manas-5/Cycle#Stage>))
+Declaration(Class(<https://github.com/Manas-5/Cycle#Team>))
+Declaration(Class(<https://github.com/Manas-5/Cycle#TeamPerson>))
+Declaration(Class(<https://github.com/Manas-5/Cycle#TeamTimeTrial>))
+Declaration(Class(<https://github.com/Manas-5/Cycle#TimeTrial>))
+Declaration(ObjectProperty(<https://github.com/Manas-5/Cycle#belongsTo>))
+Declaration(ObjectProperty(<https://github.com/Manas-5/Cycle#composedOf>))
+Declaration(ObjectProperty(<https://github.com/Manas-5/Cycle#participatesIn>))
+Declaration(DataProperty(<https://github.com/Manas-5/Cycle#hasAge>))
+Declaration(DataProperty(<https://github.com/Manas-5/Cycle#hasName>))
+Declaration(DataProperty(<https://github.com/Manas-5/Cycle#hasNationality>))
+Declaration(DataProperty(<https://github.com/Manas-5/Cycle#hasNumber>))
+Declaration(NamedIndividual(<https://github.com/Manas-5/Cycle#Astana>))
+Declaration(NamedIndividual(<https://github.com/Manas-5/Cycle#Christopher_Froom>))
+Declaration(NamedIndividual(<https://github.com/Manas-5/Cycle#Eddy_Merckx>))
+Declaration(NamedIndividual(<https://github.com/Manas-5/Cycle#Giro>))
+Declaration(NamedIndividual(<https://github.com/Manas-5/Cycle#Miguel_Indurain>))
+Declaration(NamedIndividual(<https://github.com/Manas-5/Cycle#Sky>))
+Declaration(NamedIndividual(<https://github.com/Manas-5/Cycle#Tour_de_France>))
+Declaration(NamedIndividual(<https://github.com/Manas-5/Cycle#US_Postal>))
+Declaration(NamedIndividual(<https://github.com/Manas-5/Cycle#Vuelta>))
 
 ############################
 #   Data Properties
 ############################
 
-# Data Property: :hasAge (:hasAge)
+# Data Property: <https://github.com/Manas-5/Cycle#hasAge> (<https://github.com/Manas-5/Cycle#hasAge>)
 
-DataPropertyDomain(:hasAge :Person)
-DataPropertyRange(:hasAge xsd:integer)
+DataPropertyDomain(<https://github.com/Manas-5/Cycle#hasAge> <https://github.com/Manas-5/Cycle#Person>)
+DataPropertyRange(<https://github.com/Manas-5/Cycle#hasAge> xsd:integer)
 
-# Data Property: :hasName (:hasName)
+# Data Property: <https://github.com/Manas-5/Cycle#hasName> (<https://github.com/Manas-5/Cycle#hasName>)
 
-DataPropertyDomain(:hasName :Person)
-DataPropertyRange(:hasName xsd:string)
+DataPropertyDomain(<https://github.com/Manas-5/Cycle#hasName> <https://github.com/Manas-5/Cycle#Person>)
+DataPropertyRange(<https://github.com/Manas-5/Cycle#hasName> xsd:string)
 
-# Data Property: :hasNationality (:hasNationality)
+# Data Property: <https://github.com/Manas-5/Cycle#hasNationality> (<https://github.com/Manas-5/Cycle#hasNationality>)
 
-DataPropertyDomain(:hasNationality :Person)
-DataPropertyRange(:hasNationality xsd:string)
+DataPropertyDomain(<https://github.com/Manas-5/Cycle#hasNationality> <https://github.com/Manas-5/Cycle#Person>)
+DataPropertyRange(<https://github.com/Manas-5/Cycle#hasNationality> xsd:string)
 
-# Data Property: :hasNumber (:hasNumber)
+# Data Property: <https://github.com/Manas-5/Cycle#hasNumber> (<https://github.com/Manas-5/Cycle#hasNumber>)
 
-DataPropertyDomain(:hasNumber :Stage)
-DataPropertyRange(:hasNumber xsd:integer)
+DataPropertyDomain(<https://github.com/Manas-5/Cycle#hasNumber> <https://github.com/Manas-5/Cycle#Stage>)
+DataPropertyRange(<https://github.com/Manas-5/Cycle#hasNumber> xsd:integer)
 
 
 
@@ -79,142 +79,142 @@ DataPropertyRange(:hasNumber xsd:integer)
 #   Classes
 ############################
 
-# Class: :Climber (:Climber)
+# Class: <https://github.com/Manas-5/Cycle#Climber> (<https://github.com/Manas-5/Cycle#Climber>)
 
-SubClassOf(:Climber :RaceCyclist)
-DisjointClasses(:Climber :Rider)
-DisjointClasses(:Climber :Sprinter)
+SubClassOf(<https://github.com/Manas-5/Cycle#Climber> <https://github.com/Manas-5/Cycle#RaceCyclist>)
+DisjointClasses(<https://github.com/Manas-5/Cycle#Climber> <https://github.com/Manas-5/Cycle#Rider>)
+DisjointClasses(<https://github.com/Manas-5/Cycle#Climber> <https://github.com/Manas-5/Cycle#Sprinter>)
 
-# Class: :Director (:Director)
+# Class: <https://github.com/Manas-5/Cycle#Director> (<https://github.com/Manas-5/Cycle#Director>)
 
-SubClassOf(:Director :TeamPerson)
+SubClassOf(<https://github.com/Manas-5/Cycle#Director> <https://github.com/Manas-5/Cycle#TeamPerson>)
 
-# Class: :Doctor (:Doctor)
+# Class: <https://github.com/Manas-5/Cycle#Doctor> (<https://github.com/Manas-5/Cycle#Doctor>)
 
-SubClassOf(:Doctor :TeamPerson)
+SubClassOf(<https://github.com/Manas-5/Cycle#Doctor> <https://github.com/Manas-5/Cycle#TeamPerson>)
 
-# Class: :FlatStage (:FlatStage)
+# Class: <https://github.com/Manas-5/Cycle#FlatStage> (<https://github.com/Manas-5/Cycle#FlatStage>)
 
-SubClassOf(:FlatStage :Stage)
-DisjointClasses(:FlatStage :MountainStage)
-DisjointClasses(:FlatStage :TimeTrial)
+SubClassOf(<https://github.com/Manas-5/Cycle#FlatStage> <https://github.com/Manas-5/Cycle#Stage>)
+DisjointClasses(<https://github.com/Manas-5/Cycle#FlatStage> <https://github.com/Manas-5/Cycle#MountainStage>)
+DisjointClasses(<https://github.com/Manas-5/Cycle#FlatStage> <https://github.com/Manas-5/Cycle#TimeTrial>)
 
-# Class: :GoodTeam (:GoodTeam)
+# Class: <https://github.com/Manas-5/Cycle#GoodTeam> (<https://github.com/Manas-5/Cycle#GoodTeam>)
 
-EquivalentClasses(:GoodTeam ObjectIntersectionOf(ObjectMinCardinality(3 ObjectInverseOf(:belongsTo) :Climber) ObjectExactCardinality(1 ObjectInverseOf(:belongsTo) :Rider)))
-SubClassOf(:GoodTeam :Team)
+EquivalentClasses(<https://github.com/Manas-5/Cycle#GoodTeam> ObjectIntersectionOf(ObjectMinCardinality(3 ObjectInverseOf(<https://github.com/Manas-5/Cycle#belongsTo>) <https://github.com/Manas-5/Cycle#Climber>) ObjectExactCardinality(1 ObjectInverseOf(<https://github.com/Manas-5/Cycle#belongsTo>) <https://github.com/Manas-5/Cycle#Rider>)))
+SubClassOf(<https://github.com/Manas-5/Cycle#GoodTeam> <https://github.com/Manas-5/Cycle#Team>)
 
-# Class: :IndividualTimeTrial (:IndividualTimeTrial)
+# Class: <https://github.com/Manas-5/Cycle#IndividualTimeTrial> (<https://github.com/Manas-5/Cycle#IndividualTimeTrial>)
 
-SubClassOf(:IndividualTimeTrial :TimeTrial)
-DisjointClasses(:IndividualTimeTrial :TeamTimeTrial)
+SubClassOf(<https://github.com/Manas-5/Cycle#IndividualTimeTrial> <https://github.com/Manas-5/Cycle#TimeTrial>)
+DisjointClasses(<https://github.com/Manas-5/Cycle#IndividualTimeTrial> <https://github.com/Manas-5/Cycle#TeamTimeTrial>)
 
-# Class: :MountainStage (:MountainStage)
+# Class: <https://github.com/Manas-5/Cycle#MountainStage> (<https://github.com/Manas-5/Cycle#MountainStage>)
 
-SubClassOf(:MountainStage :Stage)
-DisjointClasses(:MountainStage :TimeTrial)
+SubClassOf(<https://github.com/Manas-5/Cycle#MountainStage> <https://github.com/Manas-5/Cycle#Stage>)
+DisjointClasses(<https://github.com/Manas-5/Cycle#MountainStage> <https://github.com/Manas-5/Cycle#TimeTrial>)
 
-# Class: :OneDayRace (:OneDayRace)
+# Class: <https://github.com/Manas-5/Cycle#OneDayRace> (<https://github.com/Manas-5/Cycle#OneDayRace>)
 
-SubClassOf(:OneDayRace :Race)
-DisjointClasses(:OneDayRace :SeveralStagesRace)
+SubClassOf(<https://github.com/Manas-5/Cycle#OneDayRace> <https://github.com/Manas-5/Cycle#Race>)
+DisjointClasses(<https://github.com/Manas-5/Cycle#OneDayRace> <https://github.com/Manas-5/Cycle#SeveralStagesRace>)
 
-# Class: :Prologue (:Prologue)
+# Class: <https://github.com/Manas-5/Cycle#Prologue> (<https://github.com/Manas-5/Cycle#Prologue>)
 
-EquivalentClasses(:Prologue DataHasValue(:hasNumber "1"^^xsd:integer))
-SubClassOf(:Prologue :Stage)
+EquivalentClasses(<https://github.com/Manas-5/Cycle#Prologue> DataHasValue(<https://github.com/Manas-5/Cycle#hasNumber> "1"^^xsd:integer))
+SubClassOf(<https://github.com/Manas-5/Cycle#Prologue> <https://github.com/Manas-5/Cycle#Stage>)
 
-# Class: :Race (:Race)
+# Class: <https://github.com/Manas-5/Cycle#Race> (<https://github.com/Manas-5/Cycle#Race>)
 
-DisjointUnion(:Race :OneDayRace :SeveralStagesRace)
+DisjointUnion(<https://github.com/Manas-5/Cycle#Race> <https://github.com/Manas-5/Cycle#OneDayRace> <https://github.com/Manas-5/Cycle#SeveralStagesRace>)
 
-# Class: :RaceCyclist (:RaceCyclist)
+# Class: <https://github.com/Manas-5/Cycle#RaceCyclist> (<https://github.com/Manas-5/Cycle#RaceCyclist>)
 
-SubClassOf(:RaceCyclist :TeamPerson)
-DisjointUnion(:RaceCyclist :Climber :Rider :Sprinter)
+SubClassOf(<https://github.com/Manas-5/Cycle#RaceCyclist> <https://github.com/Manas-5/Cycle#TeamPerson>)
+DisjointUnion(<https://github.com/Manas-5/Cycle#RaceCyclist> <https://github.com/Manas-5/Cycle#Climber> <https://github.com/Manas-5/Cycle#Rider> <https://github.com/Manas-5/Cycle#Sprinter>)
 
-# Class: :RacePerson (:RacePerson)
+# Class: <https://github.com/Manas-5/Cycle#RacePerson> (<https://github.com/Manas-5/Cycle#RacePerson>)
 
-SubClassOf(:RacePerson :Person)
+SubClassOf(<https://github.com/Manas-5/Cycle#RacePerson> <https://github.com/Manas-5/Cycle#Person>)
 
-# Class: :Rider (:Rider)
+# Class: <https://github.com/Manas-5/Cycle#Rider> (<https://github.com/Manas-5/Cycle#Rider>)
 
-SubClassOf(:Rider :RaceCyclist)
-DisjointClasses(:Rider :Sprinter)
+SubClassOf(<https://github.com/Manas-5/Cycle#Rider> <https://github.com/Manas-5/Cycle#RaceCyclist>)
+DisjointClasses(<https://github.com/Manas-5/Cycle#Rider> <https://github.com/Manas-5/Cycle#Sprinter>)
 
-# Class: :SeveralStagesRace (:SeveralStagesRace)
+# Class: <https://github.com/Manas-5/Cycle#SeveralStagesRace> (<https://github.com/Manas-5/Cycle#SeveralStagesRace>)
 
-SubClassOf(:SeveralStagesRace :Race)
+SubClassOf(<https://github.com/Manas-5/Cycle#SeveralStagesRace> <https://github.com/Manas-5/Cycle#Race>)
 
-# Class: :Spectator (:Spectator)
+# Class: <https://github.com/Manas-5/Cycle#Spectator> (<https://github.com/Manas-5/Cycle#Spectator>)
 
-SubClassOf(:Spectator :Person)
+SubClassOf(<https://github.com/Manas-5/Cycle#Spectator> <https://github.com/Manas-5/Cycle#Person>)
 
-# Class: :Sprinter (:Sprinter)
+# Class: <https://github.com/Manas-5/Cycle#Sprinter> (<https://github.com/Manas-5/Cycle#Sprinter>)
 
-SubClassOf(:Sprinter :RaceCyclist)
+SubClassOf(<https://github.com/Manas-5/Cycle#Sprinter> <https://github.com/Manas-5/Cycle#RaceCyclist>)
 
-# Class: :Team (:Team)
+# Class: <https://github.com/Manas-5/Cycle#Team> (<https://github.com/Manas-5/Cycle#Team>)
 
-EquivalentClasses(:Team ObjectIntersectionOf(ObjectExactCardinality(1 ObjectInverseOf(:belongsTo) :Director) ObjectExactCardinality(1 ObjectInverseOf(:belongsTo) :Doctor) ObjectExactCardinality(10 ObjectInverseOf(:belongsTo) :RaceCyclist)))
-SubClassOf(:Team <http://xmlns.com/foaf/0.1/Organization>)
+EquivalentClasses(<https://github.com/Manas-5/Cycle#Team> ObjectIntersectionOf(ObjectExactCardinality(1 ObjectInverseOf(<https://github.com/Manas-5/Cycle#belongsTo>) <https://github.com/Manas-5/Cycle#Director>) ObjectExactCardinality(1 ObjectInverseOf(<https://github.com/Manas-5/Cycle#belongsTo>) <https://github.com/Manas-5/Cycle#Doctor>) ObjectExactCardinality(10 ObjectInverseOf(<https://github.com/Manas-5/Cycle#belongsTo>) <https://github.com/Manas-5/Cycle#RaceCyclist>)))
+SubClassOf(<https://github.com/Manas-5/Cycle#Team> <http://xmlns.com/foaf/0.1/Organization>)
 
-# Class: :TeamPerson (:TeamPerson)
+# Class: <https://github.com/Manas-5/Cycle#TeamPerson> (<https://github.com/Manas-5/Cycle#TeamPerson>)
 
-SubClassOf(:TeamPerson :Person)
-DisjointUnion(:TeamPerson :Director :Doctor :RaceCyclist)
+SubClassOf(<https://github.com/Manas-5/Cycle#TeamPerson> <https://github.com/Manas-5/Cycle#Person>)
+DisjointUnion(<https://github.com/Manas-5/Cycle#TeamPerson> <https://github.com/Manas-5/Cycle#Director> <https://github.com/Manas-5/Cycle#Doctor> <https://github.com/Manas-5/Cycle#RaceCyclist>)
 
-# Class: :TeamTimeTrial (:TeamTimeTrial)
+# Class: <https://github.com/Manas-5/Cycle#TeamTimeTrial> (<https://github.com/Manas-5/Cycle#TeamTimeTrial>)
 
-SubClassOf(:TeamTimeTrial :TimeTrial)
+SubClassOf(<https://github.com/Manas-5/Cycle#TeamTimeTrial> <https://github.com/Manas-5/Cycle#TimeTrial>)
 
-# Class: :TimeTrial (:TimeTrial)
+# Class: <https://github.com/Manas-5/Cycle#TimeTrial> (<https://github.com/Manas-5/Cycle#TimeTrial>)
 
-SubClassOf(:TimeTrial :Stage)
-DisjointUnion(:TimeTrial :IndividualTimeTrial :TeamTimeTrial)
+SubClassOf(<https://github.com/Manas-5/Cycle#TimeTrial> <https://github.com/Manas-5/Cycle#Stage>)
+DisjointUnion(<https://github.com/Manas-5/Cycle#TimeTrial> <https://github.com/Manas-5/Cycle#IndividualTimeTrial> <https://github.com/Manas-5/Cycle#TeamTimeTrial>)
 
 
 ############################
 #   Named Individuals
 ############################
 
-# Individual: :Astana (:Astana)
+# Individual: <https://github.com/Manas-5/Cycle#Astana> (<https://github.com/Manas-5/Cycle#Astana>)
 
-ClassAssertion(:Team :Astana)
+ClassAssertion(<https://github.com/Manas-5/Cycle#Team> <https://github.com/Manas-5/Cycle#Astana>)
 
-# Individual: :Christopher_Froom (:Christopher_Froom)
+# Individual: <https://github.com/Manas-5/Cycle#Christopher_Froom> (<https://github.com/Manas-5/Cycle#Christopher_Froom>)
 
-ClassAssertion(:Rider :Christopher_Froom)
+ClassAssertion(<https://github.com/Manas-5/Cycle#Rider> <https://github.com/Manas-5/Cycle#Christopher_Froom>)
 
-# Individual: :Eddy_Merckx (:Eddy_Merckx)
+# Individual: <https://github.com/Manas-5/Cycle#Eddy_Merckx> (<https://github.com/Manas-5/Cycle#Eddy_Merckx>)
 
-ClassAssertion(:Climber :Eddy_Merckx)
+ClassAssertion(<https://github.com/Manas-5/Cycle#Climber> <https://github.com/Manas-5/Cycle#Eddy_Merckx>)
 
-# Individual: :Giro (:Giro)
+# Individual: <https://github.com/Manas-5/Cycle#Giro> (<https://github.com/Manas-5/Cycle#Giro>)
 
-ClassAssertion(:SeveralStagesRace :Giro)
+ClassAssertion(<https://github.com/Manas-5/Cycle#SeveralStagesRace> <https://github.com/Manas-5/Cycle#Giro>)
 
-# Individual: :Miguel_Indurain (:Miguel_Indurain)
+# Individual: <https://github.com/Manas-5/Cycle#Miguel_Indurain> (<https://github.com/Manas-5/Cycle#Miguel_Indurain>)
 
-ClassAssertion(:Rider :Miguel_Indurain)
+ClassAssertion(<https://github.com/Manas-5/Cycle#Rider> <https://github.com/Manas-5/Cycle#Miguel_Indurain>)
 
-# Individual: :Sky (:Sky)
+# Individual: <https://github.com/Manas-5/Cycle#Sky> (<https://github.com/Manas-5/Cycle#Sky>)
 
-ClassAssertion(:Team :Sky)
+ClassAssertion(<https://github.com/Manas-5/Cycle#Team> <https://github.com/Manas-5/Cycle#Sky>)
 
-# Individual: :Tour_de_France (:Tour_de_France)
+# Individual: <https://github.com/Manas-5/Cycle#Tour_de_France> (<https://github.com/Manas-5/Cycle#Tour_de_France>)
 
-ClassAssertion(:SeveralStagesRace :Tour_de_France)
+ClassAssertion(<https://github.com/Manas-5/Cycle#SeveralStagesRace> <https://github.com/Manas-5/Cycle#Tour_de_France>)
 
-# Individual: :US_Postal (:US_Postal)
+# Individual: <https://github.com/Manas-5/Cycle#US_Postal> (<https://github.com/Manas-5/Cycle#US_Postal>)
 
-ClassAssertion(:Team :US_Postal)
+ClassAssertion(<https://github.com/Manas-5/Cycle#Team> <https://github.com/Manas-5/Cycle#US_Postal>)
 
-# Individual: :Vuelta (:Vuelta)
+# Individual: <https://github.com/Manas-5/Cycle#Vuelta> (<https://github.com/Manas-5/Cycle#Vuelta>)
 
-ClassAssertion(:SeveralStagesRace :Vuelta)
+ClassAssertion(<https://github.com/Manas-5/Cycle#SeveralStagesRace> <https://github.com/Manas-5/Cycle#Vuelta>)
 
 
-DisjointClasses(:Director :Doctor :RaceCyclist)
-DisjointClasses(:RacePerson :Spectator :TeamPerson)
+DisjointClasses(<https://github.com/Manas-5/Cycle#Director> <https://github.com/Manas-5/Cycle#Doctor> <https://github.com/Manas-5/Cycle#RaceCyclist>)
+DisjointClasses(<https://github.com/Manas-5/Cycle#RacePerson> <https://github.com/Manas-5/Cycle#Spectator> <https://github.com/Manas-5/Cycle#TeamPerson>)
 )
