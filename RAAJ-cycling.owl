@@ -1,4 +1,4 @@
-Prefix(:=<http://www.semanticweb.org/manasraaj/ontologies/2023/11/untitled-ontology-4/>)
+Prefix(:=<https://github.com/Manas-5/Cycle/blob/main/RAAJ-cycling.owl#>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -7,65 +7,71 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Prefix(Cycle:=<http://www.semanticweb.org/manasraaj/ontologies/2023/11/untitled-ontology-4/Cycle#>)
 
 
-Ontology(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo>
-Import(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo>)
+Ontology(<https://github.com/Manas-5/Cycle/blob/main/RAAJ-cycling.owl>
 
-Declaration(Class(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Climber>))
-Declaration(Class(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Director>))
-Declaration(Class(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Doctor>))
-Declaration(Class(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#FlatStage>))
-Declaration(Class(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#GoodTeam>))
-Declaration(Class(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#IndividualTimeTrial>))
-Declaration(Class(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#MountainStage>))
-Declaration(Class(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#OneDayRace>))
-Declaration(Class(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Person>))
-Declaration(Class(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Prologue>))
-Declaration(Class(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Race>))
-Declaration(Class(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#RaceCyclist>))
-Declaration(Class(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#RacePerson>))
-Declaration(Class(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Rider>))
-Declaration(Class(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#SeveralStagesRace>))
-Declaration(Class(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Spectator>))
-Declaration(Class(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Sprinter>))
-Declaration(Class(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Stages>))
-Declaration(Class(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Team>))
-Declaration(Class(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#TeamPerson>))
-Declaration(Class(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#TeamTimeTrial>))
-Declaration(Class(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#TimeTrial>))
-Declaration(ObjectProperty(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#belongsTo>))
-Declaration(ObjectProperty(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#composedOf>))
-Declaration(ObjectProperty(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#participatesIn>))
-Declaration(DataProperty(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#hasAge>))
-Declaration(DataProperty(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#hasName>))
-Declaration(DataProperty(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#hasNationality>))
-Declaration(DataProperty(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#hasNumber>))
-############################
-#   Object Properties
-############################
-
-# Object Property: <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#belongsTo> (<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#belongsTo>)
-
-ObjectPropertyDomain(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#belongsTo> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#TeamPerson>)
-ObjectPropertyRange(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#belongsTo> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Doctor>)
-
-# Object Property: <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#composedOf> (<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#composedOf>)
-
-ObjectPropertyDomain(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#composedOf> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#SeveralStagesRace>)
-ObjectPropertyRange(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#composedOf> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Stages>)
-
-# Object Property: <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#participatesIn> (<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#participatesIn>)
-
-ObjectPropertyDomain(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#participatesIn> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Person>)
-ObjectPropertyRange(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#participatesIn> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Race>)
-
+Declaration(Class(<http://xmlns.com/foaf/0.1/Organization>))
+Declaration(Class(:Climber))
+Declaration(Class(:Director))
+Declaration(Class(:Doctor))
+Declaration(Class(:FlatStage))
+Declaration(Class(:GoodTeam))
+Declaration(Class(:IndividualTimeTrial))
+Declaration(Class(:MountainStage))
+Declaration(Class(:OneDayRace))
+Declaration(Class(:Person))
+Declaration(Class(:Prologue))
+Declaration(Class(:Race))
+Declaration(Class(:RaceCyclist))
+Declaration(Class(:RacePerson))
+Declaration(Class(:Rider))
+Declaration(Class(:SeveralStagesRace))
+Declaration(Class(:Spectator))
+Declaration(Class(:Sprinter))
+Declaration(Class(:Stage))
+Declaration(Class(:Team))
+Declaration(Class(:TeamPerson))
+Declaration(Class(:TeamTimeTrial))
+Declaration(Class(:TimeTrial))
+Declaration(ObjectProperty(:belongsTo))
+Declaration(ObjectProperty(:composedOf))
+Declaration(ObjectProperty(:participatesIn))
+Declaration(DataProperty(:hasAge))
+Declaration(DataProperty(:hasName))
+Declaration(DataProperty(:hasNationality))
+Declaration(DataProperty(:hasNumber))
+Declaration(NamedIndividual(:Astana))
+Declaration(NamedIndividual(:Christopher_Froom))
+Declaration(NamedIndividual(:Eddy_Merckx))
+Declaration(NamedIndividual(:Giro))
+Declaration(NamedIndividual(:Miguel_Indurain))
+Declaration(NamedIndividual(:Sky))
+Declaration(NamedIndividual(:Tour_de_France))
+Declaration(NamedIndividual(:US_Postal))
+Declaration(NamedIndividual(:Vuelta))
 
 ############################
 #   Data Properties
 ############################
 
-# Data Property: <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#hasNumber> (<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#hasNumber>)
+# Data Property: :hasAge (:hasAge)
 
-SubDataPropertyOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#hasNumber> owl:topDataProperty)
+DataPropertyDomain(:hasAge :Person)
+DataPropertyRange(:hasAge xsd:integer)
+
+# Data Property: :hasName (:hasName)
+
+DataPropertyDomain(:hasName :Person)
+DataPropertyRange(:hasName xsd:string)
+
+# Data Property: :hasNationality (:hasNationality)
+
+DataPropertyDomain(:hasNationality :Person)
+DataPropertyRange(:hasNationality xsd:string)
+
+# Data Property: :hasNumber (:hasNumber)
+
+DataPropertyDomain(:hasNumber :Stage)
+DataPropertyRange(:hasNumber xsd:integer)
 
 
 
@@ -73,93 +79,142 @@ SubDataPropertyOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh
 #   Classes
 ############################
 
-# Class: <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Climber> (<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Climber>)
+# Class: :Climber (:Climber)
 
-SubClassOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Climber> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#RaceCyclist>)
+SubClassOf(:Climber :RaceCyclist)
+DisjointClasses(:Climber :Rider)
+DisjointClasses(:Climber :Sprinter)
 
-# Class: <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Director> (<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Director>)
+# Class: :Director (:Director)
 
-SubClassOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Director> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#TeamPerson>)
+SubClassOf(:Director :TeamPerson)
 
-# Class: <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Doctor> (<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Doctor>)
+# Class: :Doctor (:Doctor)
 
-SubClassOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Doctor> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#TeamPerson>)
+SubClassOf(:Doctor :TeamPerson)
 
-# Class: <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#FlatStage> (<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#FlatStage>)
+# Class: :FlatStage (:FlatStage)
 
-SubClassOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#FlatStage> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Stages>)
+SubClassOf(:FlatStage :Stage)
+DisjointClasses(:FlatStage :MountainStage)
+DisjointClasses(:FlatStage :TimeTrial)
 
-# Class: <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#GoodTeam> (<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#GoodTeam>)
+# Class: :GoodTeam (:GoodTeam)
 
-EquivalentClasses(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#GoodTeam> ObjectIntersectionOf(ObjectMinCardinality(3 <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#composedOf> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Climber>) ObjectExactCardinality(1 <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#composedOf> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Rider>)))
-SubClassOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#GoodTeam> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Team>)
+EquivalentClasses(:GoodTeam ObjectIntersectionOf(ObjectMinCardinality(3 ObjectInverseOf(:belongsTo) :Climber) ObjectExactCardinality(1 ObjectInverseOf(:belongsTo) :Rider)))
+SubClassOf(:GoodTeam :Team)
 
-# Class: <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#IndividualTimeTrial> (<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#IndividualTimeTrial>)
+# Class: :IndividualTimeTrial (:IndividualTimeTrial)
 
-SubClassOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#IndividualTimeTrial> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#TimeTrial>)
-DisjointClasses(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#IndividualTimeTrial> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#TeamTimeTrial>)
+SubClassOf(:IndividualTimeTrial :TimeTrial)
+DisjointClasses(:IndividualTimeTrial :TeamTimeTrial)
 
-# Class: <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#MountainStage> (<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#MountainStage>)
+# Class: :MountainStage (:MountainStage)
 
-SubClassOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#MountainStage> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Stages>)
+SubClassOf(:MountainStage :Stage)
+DisjointClasses(:MountainStage :TimeTrial)
 
-# Class: <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#OneDayRace> (<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#OneDayRace>)
+# Class: :OneDayRace (:OneDayRace)
 
-SubClassOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#OneDayRace> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Race>)
-DisjointClasses(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#OneDayRace> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#SeveralStagesRace>)
+SubClassOf(:OneDayRace :Race)
+DisjointClasses(:OneDayRace :SeveralStagesRace)
 
-# Class: <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Prologue> (<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Prologue>)
+# Class: :Prologue (:Prologue)
 
-EquivalentClasses(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Prologue> DataHasValue(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#hasNumber> "1"^^xsd:integer))
-SubClassOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Prologue> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Stages>)
+EquivalentClasses(:Prologue DataHasValue(:hasNumber "1"^^xsd:integer))
+SubClassOf(:Prologue :Stage)
 
-# Class: <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Race> (<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Race>)
+# Class: :Race (:Race)
 
-DisjointUnion(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Race> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#OneDayRace> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#SeveralStagesRace>)
+DisjointUnion(:Race :OneDayRace :SeveralStagesRace)
 
-# Class: <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#RaceCyclist> (<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#RaceCyclist>)
+# Class: :RaceCyclist (:RaceCyclist)
 
-EquivalentClasses(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#RaceCyclist> ObjectUnionOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Climber> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Rider> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Sprinter>))
-SubClassOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#RaceCyclist> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#TeamPerson>)
+SubClassOf(:RaceCyclist :TeamPerson)
+DisjointUnion(:RaceCyclist :Climber :Rider :Sprinter)
 
-# Class: <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#RacePerson> (<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#RacePerson>)
+# Class: :RacePerson (:RacePerson)
 
-SubClassOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#RacePerson> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Person>)
+SubClassOf(:RacePerson :Person)
 
-# Class: <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Rider> (<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Rider>)
+# Class: :Rider (:Rider)
 
-SubClassOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Rider> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#RaceCyclist>)
+SubClassOf(:Rider :RaceCyclist)
+DisjointClasses(:Rider :Sprinter)
 
-# Class: <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#SeveralStagesRace> (<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#SeveralStagesRace>)
+# Class: :SeveralStagesRace (:SeveralStagesRace)
 
-SubClassOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#SeveralStagesRace> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Race>)
+SubClassOf(:SeveralStagesRace :Race)
 
-# Class: <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Spectator> (<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Spectator>)
+# Class: :Spectator (:Spectator)
 
-SubClassOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Spectator> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Person>)
+SubClassOf(:Spectator :Person)
 
-# Class: <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Sprinter> (<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Sprinter>)
+# Class: :Sprinter (:Sprinter)
 
-SubClassOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Sprinter> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#RaceCyclist>)
+SubClassOf(:Sprinter :RaceCyclist)
 
-# Class: <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Team> (<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Team>)
+# Class: :Team (:Team)
 
-EquivalentClasses(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Team> ObjectIntersectionOf(ObjectExactCardinality(1 ObjectInverseOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#belongsTo>) <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Director>) ObjectExactCardinality(1 ObjectInverseOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#belongsTo>) <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Doctor>) ObjectExactCardinality(10 ObjectInverseOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#belongsTo>) <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#RaceCyclist>)))
+EquivalentClasses(:Team ObjectIntersectionOf(ObjectExactCardinality(1 ObjectInverseOf(:belongsTo) :Director) ObjectExactCardinality(1 ObjectInverseOf(:belongsTo) :Doctor) ObjectExactCardinality(10 ObjectInverseOf(:belongsTo) :RaceCyclist)))
+SubClassOf(:Team <http://xmlns.com/foaf/0.1/Organization>)
 
-# Class: <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#TeamPerson> (<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#TeamPerson>)
+# Class: :TeamPerson (:TeamPerson)
 
-EquivalentClasses(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#TeamPerson> ObjectUnionOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Director> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Doctor> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#RaceCyclist>))
-SubClassOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#TeamPerson> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Person>)
+SubClassOf(:TeamPerson :Person)
+DisjointUnion(:TeamPerson :Director :Doctor :RaceCyclist)
 
-# Class: <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#TeamTimeTrial> (<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#TeamTimeTrial>)
+# Class: :TeamTimeTrial (:TeamTimeTrial)
 
-SubClassOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#TeamTimeTrial> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#TimeTrial>)
+SubClassOf(:TeamTimeTrial :TimeTrial)
 
-# Class: <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#TimeTrial> (<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#TimeTrial>)
+# Class: :TimeTrial (:TimeTrial)
 
-SubClassOf(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#TimeTrial> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#Stages>)
-DisjointUnion(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#TimeTrial> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#IndividualTimeTrial> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#TeamTimeTrial>)
+SubClassOf(:TimeTrial :Stage)
+DisjointUnion(:TimeTrial :IndividualTimeTrial :TeamTimeTrial)
 
 
-DisjointClasses(<https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#FlatStage> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#MountainStage> <https://drive.google.com/drive/u/1/folders/1ImgBizy3qMeNhvpJh9NA0Ed3bldWpcuo#TimeTrial>)
+############################
+#   Named Individuals
+############################
+
+# Individual: :Astana (:Astana)
+
+ClassAssertion(:Team :Astana)
+
+# Individual: :Christopher_Froom (:Christopher_Froom)
+
+ClassAssertion(:Rider :Christopher_Froom)
+
+# Individual: :Eddy_Merckx (:Eddy_Merckx)
+
+ClassAssertion(:Climber :Eddy_Merckx)
+
+# Individual: :Giro (:Giro)
+
+ClassAssertion(:SeveralStagesRace :Giro)
+
+# Individual: :Miguel_Indurain (:Miguel_Indurain)
+
+ClassAssertion(:Rider :Miguel_Indurain)
+
+# Individual: :Sky (:Sky)
+
+ClassAssertion(:Team :Sky)
+
+# Individual: :Tour_de_France (:Tour_de_France)
+
+ClassAssertion(:SeveralStagesRace :Tour_de_France)
+
+# Individual: :US_Postal (:US_Postal)
+
+ClassAssertion(:Team :US_Postal)
+
+# Individual: :Vuelta (:Vuelta)
+
+ClassAssertion(:SeveralStagesRace :Vuelta)
+
+
+DisjointClasses(:Director :Doctor :RaceCyclist)
+DisjointClasses(:RacePerson :Spectator :TeamPerson)
 )
